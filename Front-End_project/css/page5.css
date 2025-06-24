@@ -1,0 +1,243 @@
+.insta{
+    background-color: rgba(0, 0, 0, 0.101);
+    height: 300px;
+    align-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+.fi1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black;
+}
+.fi2 {
+    font-size: 1em;
+    color: #777;
+    line-height: 1.6em;
+    max-width: 600px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.images img {
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.front{
+    transform: translateY(-30px);
+}
+.dark-mod{
+    background-color: #121212;
+    .fi1{
+        color: white;
+    }
+    .box{
+        background-color: rgb(156, 154, 154);
+    }
+    .title1,.p1{
+        color:white;
+    }
+  .parent{
+    background-color: #121212;
+    width: 100%;
+    height: 100%;
+  }
+  .content{
+    color: white;
+  }  
+  #dark2{
+    background-color: #121212;
+  }
+    .fi2{
+        color: white;
+    }
+    #btn1{
+        background-color: aqua;
+        color: black;
+        border-radius: 10px;
+        border-color: white;
+    }
+    .images{
+        background-color: white;
+    }
+    body{
+        background-color: #121212;
+    }
+    .flex-item img{
+        background-color: white;
+    }
+    .flex-item h5{
+        color: white;
+        opacity: 1;
+    }
+    .flex-item p{
+        color: white;
+        opacity: 1;
+    }
+    .container-Arrivals h1{
+    color: white;
+    }
+    .tab,.view-more {
+        background-color: #333;
+    color: white;
+    }
+    .tab.clicked{
+        background-color: white;
+        color: #000;
+    }
+    .product-card {
+        border: 1px solid #444;
+    }
+    
+    .tab {
+        border: 1px solid #555;
+        color: white;
+    }
+    .subtitle{
+        color: white;
+    }
+    
+    .view-more {
+        background-color: #444;
+        border: 1px solid #555;
+        color: white;
+    }
+       .fasco
+   {   
+   color: rgb(255, 255, 255);
+   
+   }
+   .buttonp1
+   {
+       color: rgb(255, 255, 255);
+    
+   }
+   .buttonp1:hover
+   {
+       background-color: rgb(255, 255, 255);
+       color: rgb(0, 0, 0);
+   }
+   .ultimate
+   {
+      
+       color: #ffffff;
+   }
+   .outline
+   {    
+     
+        
+       -webkit-text-stroke-color: rgb(255, 255, 255);
+     
+    
+   }
+   .newcollection
+   {
+   
+       color: rgb(255, 255, 255);
+   
+   
+   
+   }
+   .logo
+   {
+       background-color: rgb(225, 225, 225);  padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px; border-radius: 15px;
+   }
+   .page1footer
+   {
+       gap: 10px;
+   } 
+    .contain{
+        background-color: #121212;
+    }
+    .deal,.lorem,.countdown p.text,.hurry h3{
+        color: white;
+    }
+    .bt{
+        background-color: white;
+        color: black;
+    }
+    
+    #days,#hours,#minutes,#seconds{
+    background-color: black;
+    color: white;
+}
+    .arrows{
+        color: white;
+    }
+    .bt:hover{
+        background-color: white;
+        height: 50px;
+        width: 180px;
+    }
+    .row2{
+        color: white;
+    }
+    .divofb{
+        background-color: rgb(156, 154, 154);
+        color: white;
+    }
+    .text1,.mail{
+        color: white;
+    }
+    .button0:hover{
+        background-color: white;
+        color: black;
+    }
+    .ivc{
+        color: white;
+        text-decoration: none;
+    }
+    #w7,#w2{
+        color: white;
+    }
+    .bvc{
+        background-color: cyan;
+    }
+}
+.bvc{
+    margin-left: 250px;
+    width: fit-content;
+}
+#btn1{
+    position: absolute;
+    margin-top:20px ;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border-color: cyan;
+    margin-left: 20px;
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    z-index: 30;
+} 
+.ivc{
+    color: black;
+    text-decoration: none;
+}
+@media(max-width:520px){
+    .fi1{
+        font-size: 1.8em ;
+    }
+    .fi2{
+        font-size: 0.6;
+    }
+}
+@media(max-width:290px){
+    .fi1{
+        font-size: 1em ;
+    }
+    .fi2{
+        font-size: 0.4;
+    }
+}

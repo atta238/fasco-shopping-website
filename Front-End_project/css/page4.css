@@ -1,0 +1,155 @@
+.image{
+    display: grid;
+    height: 550px;
+    padding-top: 40px;
+    grid-template-columns: repeat(4,minmax(370px,450px));
+}
+.sl1{
+    width: 100%;
+    background-image: url(../images/slider2.jpg);
+    background-size: cover;
+    grid-column: 1/3;
+}
+.sl2{
+    width: 100%;
+    background-image: url(../images/slider1.jpg);
+    background-size: cover;
+    justify-content: flex-end;
+    grid-column: 3/5;
+    position: relative;
+}
+.talk{
+    overflow: hidden;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one{
+    margin-left: 195px;
+    margin-top: 40px;
+    color: #777;
+}
+.two{
+    margin-top: 20px;
+    margin-left: 190px;
+    font-size: xx-large;
+    opacity: 0.8;
+}
+.three{
+    text-decoration: underline #777;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 193px;
+    margin-top: 25px;
+}
+.four{
+    color: #777;
+    line-height: 1.3em;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+.five{
+    opacity: 0.6;;
+    margin-left: 190px;
+}
+.six{
+    color: white;
+    background-color: black;
+    border: 6px solid black;
+    border-radius: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    margin-left: 6px;
+}
+.seven{
+    font-size: x-large;
+    font-weight:720;
+    margin-left: 192px;
+    margin-top: 33px;
+}
+.eight{
+    width: 200px; 
+    height: 50px; 
+    border-radius: 10px; 
+    color: rgb(211, 205, 205); 
+    background-color: black;
+    margin-left: 185px;
+    margin-top: 10px;
+}
+.eight:hover{
+    background-color: #444;
+    border: none;
+    color: white;
+}
+
+
+
+.cont{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 260px;
+    gap: 140px;
+    align-items: center;
+}
+.flex-item{
+    display: flex;
+     align-items: center;
+    text-align: center;
+}
+.flex-item img{
+    height: 45px;
+    width: 45px;
+    margin-bottom: 20px;
+}
+.a1 h5
+{
+    margin-left: -35px;
+    opacity: 0.7;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.a1 p{
+    margin-bottom:20px ;
+    font-size: 14px;
+    color: #777;
+    margin-left: 3px;
+}
+.a2 h5
+{
+    margin-left: 10px;
+    opacity: 0.7;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.a2 p{
+    margin-bottom:20px ;
+    font-size: 14px;
+    color: #777;
+    margin-left: -65px;
+}
+.a3 h5
+{
+    margin-left: 10px;
+    opacity: 0.7;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.a3 p{
+    margin-bottom:20px ;
+    font-size: 14px;
+    color: #777;
+}
+.a4 h5
+{
+    margin-left: 10px;
+    opacity: 0.7;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.a4 p{
+    margin-bottom:20px ;
+    font-size: 14px;
+    color: #777;
+    margin-left: 5px;
+}
